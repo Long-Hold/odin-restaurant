@@ -7,11 +7,19 @@
     appearance: none;
 }
 
+:root {
+    --forestGreen: #1e2419;
+    --offWhite: #f0f0f0;
+    --accentBrass: #c9a96e;
+    --mediumForest: #2a3021;
+}
+
 html {
+    color: var(--offWhite);
     font-size: max(16px, 1rem);
     line-height: 1.6;
 }
 
 body {
-    background-color: yellow;
+    background-color: var(--forestGreen);
 }
