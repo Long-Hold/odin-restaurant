@@ -1,3 +1,5 @@
+import restaurantImage from '../images/forestRest.png';
+
 const RESTAURANT_DESCRIPTION_ONE = `Nestled deep within an ancient forest where fireflies dance
     and old oak trees share their secrets,
     The Whispering Grove offers an enchanting dining experience unlike any other.
@@ -12,7 +14,7 @@ export default function createHomePage() {
     const homeDiv = document.createElement('div');
 
     const chefImage = document.createElement('img');
-    chefImage.src = "images/Fairytale Restaurant in Enchanted Forest.png";
+    chefImage.src = restaurantImage;
     chefImage.alt = "A fairytale restaurant in an enchanted forest";
 
     homeDiv.appendChild(chefImage);
