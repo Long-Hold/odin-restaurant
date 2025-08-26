@@ -34,8 +34,9 @@ export function createHomePage() {
     infoSect.appendChild(paraTwo);
 
     const menuBtn = document.createElement('button');
-    menuBtn.classList.add = 'menu-btn';
+    menuBtn.classList.add('menu-btn');
     menuBtn.type = 'button';
+    menuBtn.textContent = 'Explore Our Menu';
     infoSect.appendChild(menuBtn);
 
     homeDiv.appendChild(infoSect);
