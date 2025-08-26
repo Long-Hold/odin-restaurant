@@ -1,5 +1,5 @@
 import "./styles.css"
-import createHomePage from "./modules/home";
+import {createHomePage} from "./modules/home";
 
 const contentDiv = document.getElementById('content');
 contentDiv.appendChild(createHomePage());

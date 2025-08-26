@@ -10,7 +10,7 @@ const RESTAURANT_DESCRIPTION_TWO = `Whether you're seeking a romantic evening un
                 our warm hospitality and magical ambiance will make your visit truly unforgettable.
                 Listen closely, and you might just hear the forest itself welcoming you home.`;
 
-export default function createHomePage() {
+export function createHomePage() {
     const homeDiv = document.createElement('div');
 
     const chefImage = document.createElement('img');
