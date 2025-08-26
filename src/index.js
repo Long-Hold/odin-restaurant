@@ -1,6 +1,7 @@
 import "./styles.css"
+import createHomePage from "./modules/home";
 
-function createHomePage() {
-    
-}
+const contentDiv = document.getElementById('content');
+contentDiv.appendChild(createHomePage());
+
 console.log('Welcome to the Restaurant!');
