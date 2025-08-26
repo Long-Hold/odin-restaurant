@@ -13,11 +13,12 @@ const RESTAURANT_DESCRIPTION_TWO = `Whether you're seeking a romantic evening un
 export function createHomePage() {
     const homeDiv = document.createElement('div');
 
-    const chefImage = document.createElement('img');
-    chefImage.src = restaurantImage;
-    chefImage.alt = "A fairytale restaurant in an enchanted forest";
+    const homeImage = document.createElement('img');
+    homeImage.src = restaurantImage;
+    homeImage.alt = "A fairytale restaurant in an enchanted forest";
+    homeImage.width = "500";
 
-    homeDiv.appendChild(chefImage);
+    homeDiv.appendChild(homeImage);
 
     const infoSect = document.createElement('section');
 
