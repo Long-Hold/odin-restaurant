@@ -1,5 +1,6 @@
 import "./styles.css"
-import {createHomePage} from "./modules/home";
+// import {createHomePage} from "./modules/home";
+import {createMenu} from "./modules/menu";
 
 const contentDiv = document.getElementById('content');
 contentDiv.appendChild(createHomePage());
@@ -12,4 +13,11 @@ const tabHandler = (function() {
      */
     contentDiv.innerHTML = '';
     contentDiv.appendChild(createHomePage());
+
+    const clearContent = () => contentDiv.innerHTML = '';
+
+    const displayMenu = () => {
+        clearContent();
+        contentDiv.appendChild(createMenu());
+    }
 })();
