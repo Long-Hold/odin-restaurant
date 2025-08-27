@@ -16,6 +16,27 @@ const tabHandler = (function() {
     clearContent();
     contentDiv.appendChild(createHomePage());
 
+    navContainer.addEventListener('click', (event) => {
+        const selectedBtn = event.target;
+
+        switch(selectedBtn.id) {
+            case 'home-btn':
+                displayHomePage();
+                break;
+                
+            case 'menu-btn':
+                displayMenu();
+                break;
+
+            case 'about-btn':
+                displayAbout();
+                break;
+
+            default:
+                break;
+        }
+    })
+
     const displayHomePage = () => {
         clearContent();
         contentDiv.appendChild(createHomePage());
