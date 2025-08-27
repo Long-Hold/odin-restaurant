@@ -10,11 +10,11 @@ const tabHandler = (function() {
     const contentDiv = document.getElementById('content');
     const navContainer = document.getElementById('nav-buttons');
 
+    const clearContent = () => contentDiv.innerHTML = '';
+
     // Render homepage upon website initial load
     clearContent();
     contentDiv.appendChild(createHomePage());
-
-    const clearContent = () => contentDiv.innerHTML = '';
 
     const displayHomePage = () => {
         clearContent();
