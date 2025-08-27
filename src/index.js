@@ -1,6 +1,7 @@
 import "./styles.css"
 import {createHomePage} from "./modules/home";
 import {createMenu} from "./modules/menu";
+import { createAbout } from "./modules/about";
 
 const contentDiv = document.getElementById('content');
 contentDiv.appendChild(createHomePage());
@@ -16,12 +17,22 @@ const tabHandler = (function() {
 
     const clearContent = () => contentDiv.innerHTML = '';
 
+    const displayHomePage = () => {
+        clearContent();
+        contentDiv.appendChild(createHomePage());
+    }
+
     const displayMenu = () => {
         clearContent();
         contentDiv.appendChild(createMenu());
     }
 
-    return {displayMenu};
+    const displayAbout = () => {
+        clearContent();
+        contentDiv.appendChild(createAbout());
+    }
+
+    return {displayHomePage, displayMenu, displayAbout};
 })();
 
-tabHandler.displayMenu();
+tabHandler.displayAbout();
