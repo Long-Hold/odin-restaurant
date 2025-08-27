@@ -8,11 +8,10 @@ contentDiv.appendChild(createHomePage());
 
 const tabHandler = (function() {
     const contentDiv = document.getElementById('content');
+    const tabButtons = document.getElementById('nav-buttons');
 
-    /**Clear the content container, and then add the home page content.
-     * This is done upon module initialization as the initial page load
-     */
-    contentDiv.innerHTML = '';
+    // Render homepage upon website initial load
+    clearContent();
     contentDiv.appendChild(createHomePage());
 
     const clearContent = () => contentDiv.innerHTML = '';
