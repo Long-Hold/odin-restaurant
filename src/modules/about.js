@@ -26,10 +26,41 @@ function createStorySection() {
     return storySection;
 }
 
+function createPhilosophySection() {
+    const firstParagraph = `We believe that dining should nourish both body and soul. 
+    Our chefs work closely with local foragers and farmers who share our reverence for the natural world, 
+    ensuring that every ingredient arrives at your table with its story intact. 
+    The gentle crackle of our hearth fire and the soft whispers of wind through ancient boughs create an 
+    atmosphere where time moves differently, allowing you to truly savor each moment`;
+
+    const secondParagrap = `Whether you seek solitude for quiet contemplation or wish to share tales with fellow travelers, 
+    The Whispering Grove welcomes you as family. Here, beneath our canopy of stars and surrounded by the gentle wisdom of the forest, 
+    every meal becomes a celebration of the magic that exists when we pause to truly experience the world around us.`;
+
+    const philoSection = document.createElement('section');
+
+    const philoHeader = document.createElement('h2');
+    philoHeader.textContent = 'Our Philosophy';
+
+    const philoPOne = document.createElement('p');
+    philoPOne.textContent = firstParagraph;
+
+    const philoPTwo = document.createElement('p');
+    philoPTwo.textContent = secondParagrap;
+
+    philoSection.appendChild(philoHeader);
+    philoSection.appendChild(philoPOne);
+    philoSection.appendChild(philoPTwo);
+
+    return philoSection;
+}
+
 export function createAbout() {
     const aboutDiv = document.createElement('div');
     aboutDiv.classList.add('about-container');
 
     aboutDiv.appendChild(createStorySection());
+    aboutDiv.appendChild(createPhilosophySection());
+
     return aboutDiv;
 }
