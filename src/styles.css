@@ -20,6 +20,16 @@ html {
     line-height: 1.6;
 }
 
+button {
+    color:inherit;
+    padding: 0.6rem 0.4rem;
+
+    border: 2px solid var(--accentBrass);
+    border-radius: 10px;
+
+    background-color: var(--mediumForest);
+}
+
 body {
     background-color: var(--forestGreen);
 }
