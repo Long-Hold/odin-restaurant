@@ -31,5 +31,33 @@ export function createMenu() {
     const menuDiv = document.createElement('div');
     menuDiv.classList.add('menu-container');
 
+    const menuItemsList = Object.values(menuItems);
+
+    menuItemsList.forEach((menuItem) => {
+        const menuCard = document.createElement('article');
+        menuCard.classList.add('menu-card');
+
+        const image = document.createElement('img');
+        image.src = menuItem.image;
+        image.alt = menuItem.description;
+        image.width = '200';
+
+        const itemName = document.createElement('h3');
+        itemName.textContent = menuItem.item;
+
+        const description = document.createElement('p');
+        description.textContent = menuItem.description;
+
+        const price = document.createElement('p');
+        price.textContent = menuItem.price;
+
+        menuCard.appendChild(image);
+        menuCard.appendChild(itemName);
+        menuCard.appendChild(description);
+        menuCard.appendChild(price);
+
+        menuDiv.appendChild(menuCard);
+    })
+
     return menuDiv;
 }
