@@ -34,5 +34,3 @@ const tabHandler = (function() {
 
     return {displayHomePage, displayMenu, displayAbout};
 })();
-
-tabHandler.displayAbout();
