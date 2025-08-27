@@ -1,3 +1,5 @@
+import { foodImage } from "../images";
+
 class MenuItem {
     #item;
     #image;
@@ -20,6 +22,6 @@ class MenuItem {
 export function createMenu() {
     const menuDiv = document.createElement('div');
     menuDiv.classList.add('menu-container');
-
+    
     return menuDiv;
 }
