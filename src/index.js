@@ -8,7 +8,7 @@ contentDiv.appendChild(createHomePage());
 
 const tabHandler = (function() {
     const contentDiv = document.getElementById('content');
-    const tabButtons = document.getElementById('nav-buttons');
+    const navContainer = document.getElementById('nav-buttons');
 
     // Render homepage upon website initial load
     clearContent();
