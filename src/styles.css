@@ -28,6 +28,7 @@ button {
     border-radius: 10px;
 
     background-color: var(--mediumForest);
+    font-size: 1.2rem;
 }
 
 body {
