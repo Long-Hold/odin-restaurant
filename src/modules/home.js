@@ -1,3 +1,4 @@
+import '../styles/pages/homeStyles.css';
 import restaurantImage from '../images/forestRest.png';
 
 const RESTAURANT_DESCRIPTION_ONE = `Nestled deep within an ancient forest where fireflies dance

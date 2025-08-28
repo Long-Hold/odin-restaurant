@@ -1,3 +1,4 @@
+import '../styles/pages/menuStyles.css';
 import { foodImage } from "../images";
 
 class MenuItem {

@@ -1,3 +1,5 @@
+import '../styles/pages/aboutStyles.css';
+
 function createStorySection() {
     const firstParagraph = `The Whispering Grove began as a dream shared between travelers who discovered this sacred clearing generations ago. 
                                 Legend speaks of an ancient pact between the first innkeepers and the forest guardians, 
