@@ -1,0 +1,7 @@
+/* Positional styling */
+.home-div {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 1rem;
+}
