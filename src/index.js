@@ -1,4 +1,4 @@
-import "./styles.css"
+import "./styles/styles.css"
 import {createHomePage} from "./modules/home";
 import {createMenu} from "./modules/menu";
 import { createAbout } from "./modules/about";
