@@ -45,3 +45,12 @@ img {
 body {
     background-color: var(--forestGreen);
 }
+
+/* flex box styling for body */
+body, #content {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+
+    gap: 1rem;
+}
