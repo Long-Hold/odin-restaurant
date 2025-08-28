@@ -13,6 +13,7 @@ const RESTAURANT_DESCRIPTION_TWO = `Whether you're seeking a romantic evening un
 
 export function createHomePage() {
     const homeDiv = document.createElement('div');
+    homeDiv.classList.add('home-div');
 
     const homeImage = document.createElement('img');
     homeImage.src = restaurantImage;
