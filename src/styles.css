@@ -37,6 +37,11 @@ button:active {
     transition: 0.2s;
 }
 
+img {
+    border-radius: 10px;
+    border: 2px solid var(--accentBrass);
+}
+
 body {
     background-color: var(--forestGreen);
 }
