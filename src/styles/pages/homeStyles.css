@@ -6,6 +6,11 @@
     gap: 1rem;
 }
 
+/* Home container visual styling */
+.home-div {
+    background-color: var(--mediumForest);
+}
+
 .home-div img {
     aspect-ratio: 1;
     width: clamp(300px, 50vw, 600px);
