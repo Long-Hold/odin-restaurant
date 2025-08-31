@@ -5,3 +5,10 @@
     align-items: center;
     gap: 1rem;
 }
+
+.home-div img {
+    aspect-ratio: 1;
+    width: clamp(300px, 50vw, 600px);
+    object-fit: cover;
+    box-shadow: 2px 2px 5px black;
+}
