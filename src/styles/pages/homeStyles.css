@@ -4,6 +4,12 @@
     flex-flow: column nowrap;
     align-items: center;
     gap: 1rem;
+
+    width: 80%;
+
+    padding: 2rem;
+
+    border-radius: 10px;
 }
 
 /* Home container visual styling */
