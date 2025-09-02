@@ -4,3 +4,11 @@
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     width: max(300px, 50%);
 }
+
+.menu-container > article {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
