@@ -13,8 +13,8 @@
 
 .home-div section {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+    flex-flow: column nowrap;
+    align-items: center;
     gap: 1rem;
 }
 
@@ -28,4 +28,8 @@
     width: 80%;
     object-fit: cover;
     box-shadow: 2px 2px 5px black;
+}
+
+.home-div p {
+    max-width: 80ch;
 }
