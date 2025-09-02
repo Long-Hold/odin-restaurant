@@ -4,7 +4,7 @@
     flex-flow: column nowrap;
     align-items: center;
     gap: 1rem;
-
+    width: max(65%, 300px);
 
     padding: 2rem;
 
@@ -18,7 +18,7 @@
 
 .home-div img {
     aspect-ratio: 1;
-    width: clamp(300px, 50vw, 600px);
+    width: 80%;
     object-fit: cover;
     box-shadow: 2px 2px 5px black;
 }
