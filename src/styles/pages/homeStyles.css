@@ -31,5 +31,6 @@
 }
 
 .home-div p {
-    max-width: 80ch;
+    text-align: justify;
+    max-width: 60ch;
 }
