@@ -12,3 +12,14 @@
     text-align: center;
     padding: 1rem;
 }
+
+/* Visual styling */
+.menu-container {
+    background-color: var(--mediumForest);
+    border-radius: 10px;
+}
+
+.menu-container > article {
+    border: 1px solid var(--accentBrass);
+    border-radius: 10px;
+}
