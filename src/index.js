@@ -37,6 +37,12 @@ const tabHandler = (function() {
         }
     })
 
+    contentDiv.addEventListener('click', (event) => {
+        if (event.target.classList.contains('menu-btn')) {
+            displayMenu();
+        }
+    })
+
     const displayHomePage = () => {
         clearContent();
         contentDiv.appendChild(createHomePage());
