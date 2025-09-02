@@ -1,0 +1,17 @@
+/* Positional Styling */
+.about-container {
+    width: max(280px, 50%);
+    text-align: justify;
+
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem;
+}
+
+.about-container section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 0.8rem;
+    margin-top: 1rem;
+}
