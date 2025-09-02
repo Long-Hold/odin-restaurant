@@ -11,6 +11,13 @@
     border-radius: 10px;
 }
 
+.home-div section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
 /* Home container visual styling */
 .home-div {
     background-color: var(--mediumForest);
