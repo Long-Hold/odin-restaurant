@@ -3,6 +3,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     width: max(300px, 50%);
+    gap: 0.5rem;
 }
 
 .menu-container > article {
@@ -20,6 +21,6 @@
 }
 
 .menu-container > article {
-    border: 1px solid var(--accentBrass);
+    border: 1px solid var(--offWhite);
     border-radius: 10px;
 }
