@@ -4,7 +4,7 @@
     flex-flow: column nowrap;
     align-items: center;
     gap: 1rem;
-    width: max(65%, 300px);
+    width: clamp(300px, 80%, 800px);
 
     padding: 2rem;
 
