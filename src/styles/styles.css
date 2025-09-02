@@ -46,6 +46,10 @@ body {
     background-color: var(--forestGreen);
 }
 
+body, #content {
+    min-width: 100%;
+}
+
 /* flex box styling for body */
 body, #content {
     display: flex;
