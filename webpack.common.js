@@ -5,11 +5,7 @@
 
  module.exports = {
 
-   entry: {
-
-     app: './src/index.js',
-
-   },
+   entry: './src/index.js',
 
    plugins: [
 
