@@ -12,6 +12,7 @@
    devServer: {
 
      static: './dist',
+     watchFiles: ["./src/template.html"],
 
    },
 
