@@ -4,7 +4,6 @@
 
 
  module.exports = merge(common, {
-
    mode: 'production',
-   devtool: 'souce-map',
+   devtool: 'source-map',
  });
